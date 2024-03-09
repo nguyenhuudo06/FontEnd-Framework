@@ -1,18 +1,9 @@
-import logo from './logo.svg';
+import Profile from './components/profile';
 import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col col-6">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <div className="col col-6">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-      </div>
-    </div>
+    <Profile />
   );
 }
 
